@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.boton {
+   border margin: 2px;
+   padding:15px 20px;
+   text-align: center;
+   background-color:#CACFD2 ;
+   border:none;
+   border-radius:15px;
+   color: #fff;
+   box-shadow: 0px 9px ;
+   font-size: 25px;
+
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+</style>
+</head>
+<body>
+
+<video autoplay muted loop id="CAJA">
+  <source src="CAJA.mp4" type="video/mp4">
+</video>
+<div class="boton">
+<a href="opcion1.html" class="button">Darle de comer</a>
+<a href="opcion2.html" class="button">Seguir caminando</a>             
+  
+</div>
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+</script>
+
+</body>
+</html>
