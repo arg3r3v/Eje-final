@@ -1,0 +1,43 @@
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  p {
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 2rem;
+    margin: 0 auto;
+    font-family: "Courier New";
+    border-right: 0.15em solid #18bdec;
+    animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  .texto-justificado{
+    text-align: justify;
+    }
+
+  .inline-buttons .et_pb_button_module_wrapper {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: right
+}
+
+.inline-buttons {
+    text-align: left
+
+  }
